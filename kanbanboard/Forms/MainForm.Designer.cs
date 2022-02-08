@@ -1437,9 +1437,6 @@ namespace kanbanboard.Forms
             this.TableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 454F));
             this.TableLayoutPanel.Size = new System.Drawing.Size(937, 494);
             this.TableLayoutPanel.TabIndex = 1;
-            this.TableLayoutPanel.DragDrop += new System.Windows.Forms.DragEventHandler(this.TableLayoutPanel_DragDrop);
-            this.TableLayoutPanel.DragEnter += new System.Windows.Forms.DragEventHandler(this.TableLayoutPanel_DragEnter);
-            this.TableLayoutPanel.DragLeave += new System.EventHandler(this.TableLayoutPanel_DragLeave);
             // 
             // BasicPanel
             // 
